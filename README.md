@@ -22,10 +22,10 @@ cd [CarRental-System]
 ### 2. Database
 Connect to MySQL and run:
 
--CREATE DATABASE CarRentalManagement;
+- CREATE DATABASE CarRentalManagement;
 USE CarRentalManagement;
 
--CREATE TABLE Customer (
+- CREATE TABLE Customer (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
