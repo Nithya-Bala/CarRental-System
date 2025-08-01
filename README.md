@@ -63,8 +63,11 @@ USE CarRentalManagement;
 config.py (database credentials)
 
 Host = 'localhost'
+
 User = 'root'
+
 Password = 'Your Password of MySQL'
+
 DataBase = 'CarRentalManagement'
 
 cd car-rental-backend
