@@ -81,7 +81,7 @@ npm install
 npm start
 The frontend will typically run on http://localhost:3000
 
-### Project Structure (example)
+## Project Structure (example)
 
 /car-rental-backend    # Flask API, config.py, app.py, requirements.txt
 /car-rental-frontend   # ReactJS frontend, package.json
