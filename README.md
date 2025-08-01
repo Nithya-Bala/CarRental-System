@@ -17,7 +17,7 @@ Full-stack web application to browse, lease, and manage car rentals.
 
 ### 1. Clone
 git clone https://github.com/Nithya-Bala/CarRental-System.git
-cd [CarRental-System]
+ cd [CarRental-System]
 
 ### 2. Database
 Connect to MySQL and run:
@@ -33,7 +33,7 @@ USE CarRentalManagement;
     password VARCHAR(255)
 );
 
--CREATE TABLE VEHICLES (
+- CREATE TABLE VEHICLES (
     vehicleID INT AUTO_INCREMENT PRIMARY KEY,
     make VARCHAR(30),
     model VARCHAR(30),
@@ -45,7 +45,7 @@ USE CarRentalManagement;
     image LONGBLOB
 );
 
--CREATE TABLE LEASE (
+- CREATE TABLE LEASE (
     leaseID INT AUTO_INCREMENT PRIMARY KEY,
     customerID INT,
     vehicleID INT,
