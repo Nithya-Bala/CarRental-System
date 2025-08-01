@@ -17,7 +17,8 @@ Full-stack web application to browse, lease, and manage car rentals.
 
 ### 1. Clone
 git clone https://github.com/Nithya-Bala/CarRental-System.git
- cd [CarRental-System]
+
+cd [CarRental-System]
 
 ### 2. Database
 Connect to MySQL and run:
@@ -71,6 +72,7 @@ Password = 'Your Password of MySQL'
 DataBase = 'CarRentalManagement'
 
 cd car-rental-backend
+
 pip install -r requirements.txt
 
 Run the backend:
@@ -80,14 +82,15 @@ python app.py
 In a new terminal:
 
 cd car-rental-frontend
+
 npm install
+
 npm start
-The frontend will typically run on http://localhost:3000
 
 ## Project Structure (example)
 
-/car-rental-backend    # Flask API, config.py, app.py, requirements.txt
-/car-rental-frontend   # ReactJS frontend, package.json
+- /car-rental-backend    # Flask API, config.py, app.py, requirements.txt
+- /car-rental-frontend   # ReactJS frontend, package.json
 
 ## Author
 [Nithya B]
