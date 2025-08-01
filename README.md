@@ -22,10 +22,10 @@ cd [CarRental-System]
 ### 2. Database
 Connect to MySQL and run:
 
-CREATE DATABASE CarRentalManagement;
+-CREATE DATABASE CarRentalManagement;
 USE CarRentalManagement;
 
-CREATE TABLE Customer (
+-CREATE TABLE Customer (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
@@ -33,7 +33,7 @@ CREATE TABLE Customer (
     password VARCHAR(255)
 );
 
-CREATE TABLE VEHICLES (
+-CREATE TABLE VEHICLES (
     vehicleID INT AUTO_INCREMENT PRIMARY KEY,
     make VARCHAR(30),
     model VARCHAR(30),
@@ -45,7 +45,7 @@ CREATE TABLE VEHICLES (
     image LONGBLOB
 );
 
-CREATE TABLE LEASE (
+-CREATE TABLE LEASE (
     leaseID INT AUTO_INCREMENT PRIMARY KEY,
     customerID INT,
     vehicleID INT,
