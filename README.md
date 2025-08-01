@@ -1,4 +1,4 @@
-# Car Rental Management System 🚗
+# Car Rental Management System 
 
 Built during my **2-month internship at Hexaware**.  
 Full-stack web application to browse, lease, and manage car rentals.
